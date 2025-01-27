@@ -1,0 +1,16 @@
+Package: JOPT
+Type: Package
+Title: J-optimal Subdata Selection
+Version: 0.1.0
+Author: Alvaro Cia-Mina <aciamina@unav.es>
+Maintainer: Alvaro Cia-Mina <aciamina@unav.es>
+Description: Implements the J-optimal Subdata Selection for linear regression.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Imports:
+    Matrix,
+    latex2exp
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+
