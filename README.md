@@ -50,7 +50,7 @@ The function `jseq()` implements the J-optimal subsample selection algorithm. It
 
 #### Inputs
 - `x`: A dataset (data frame) containing the covariates for the regression model.
-- `alpha`: A numeric value between 0 and 1 specifying the subsample proportion.
+- `alpha`: A numeric value between 0 and 1 specifying the subsampling proportion.
 - `model_vec`: A character vector defining the regression model. Each element should represent a term in the model.
 - `k0`: Initial size of the subsample (default: `5 * length(model_vec)`).
 - `q`: A numeric value between `0.5` and `1` (default: `5/8`).
@@ -97,7 +97,7 @@ run_efficiency_comparison_example()
 
 ## References
 
-Cia-Mina et al. (2025). *J-Optimal Subsample Selection in Regression Models: A Computational Approach*.
+Cia-Mina, A., Lopez-Fidalgo, J., Wong, W.K.: Optimal subdata selection for prediction based on the distribution of the covariates. IEEE Transactions on Big Data (in revision) (2025)
 
 ## License
 
