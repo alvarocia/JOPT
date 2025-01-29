@@ -101,7 +101,7 @@ Cia-Mina, A., Lopez-Fidalgo, J., Wong, W.K.: Optimal subdata selection for predi
 
 ## License
 
-JOPT is licensed under the MIT License.
+JOPT is licensed under the GPL License.
 
 ## Contact
 
