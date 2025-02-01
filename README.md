@@ -27,7 +27,7 @@ The function `create_model_function()` is used to define a regression model for 
 - `expressions`: A character vector of mathematical expressions to define the model. Each expression should be valid R code and reference elements of `x` (e.g., "x[1]", "x[2]^2").
 
 #### Outputs
-- A function that takes an input vector `x` and evaluates the expressions in `expressions`, returning a column matrix of the results.
+- A function that takes an input vector `x` and evaluates the functions in `expressions`, returning a column matrix of the results.
 
 #### Example Usage
 ```r
@@ -87,7 +87,7 @@ The function `run_efficiency_comparison_example()` provides an example of how to
 - None.
 
 #### Outputs
-- An output demonstrating efficiency comparisons of different subsampling methods.
+- An output that automatically demonstrates efficiency comparisons of different subsampling methods.
 
 #### Example Usage
 ```r

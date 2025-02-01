@@ -9,9 +9,12 @@
 
 #' Run Efficiency Comparison Example
 #'
-#' This function provides an example of running an efficiency comparison
-#' using the package's capabilities. The function contains the example
-#' code previously executed at the top level.
+#' This function provides an example of running an efficiency comparison.
+#' It compares the efficiency of two subdata selection methods:
+#' J-optimal and D-optimal. It evaluates their performance based on
+#' predefined efficiency criteria and generates comparative plots
+#' to visualize the results.
+#' Theoretical J-optimal is included for comparison.
 #'
 #' @import Matrix
 #' @import latex2exp
