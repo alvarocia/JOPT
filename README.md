@@ -97,7 +97,7 @@ run_efficiency_comparison_example()
 
 ## References
 
-Cia-Mina, A., Lopez-Fidalgo, J., Wong, W.K.: Optimal subdata selection for prediction based on the distribution of the covariates. IEEE Transactions on Big Data (in revision) (2025)
+Cia-Mina, A., Lopez-Fidalgo, J., Wong, W.K.: Optimal subdata selection for prediction based on the distribution of the covariates. IEEE Transactions on Big Data (2025). DOI: [10.1109/TBDATA.2025.3552343](https://doi.org/10.1109/TBDATA.2025.3552343)
 
 ## License
 
