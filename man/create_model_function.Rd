@@ -8,15 +8,15 @@ create_model_function(expressions)
 }
 \arguments{
 \item{expressions}{A character vector of mathematical expressions to define the model.
-Each expression should be valid R code and reference elements of `x` (e.g., `"x[1]"`, `"x[2]^2"`).}
+Each expression should be valid R code and reference elements of \code{x} (e.g., \code{"x[1]"}, \code{"x[2]^2"}).}
 }
 \value{
-A function that takes an input vector `x` and evaluates the expressions in
-  `expressions`, returning a column matrix of the results.
+A function that takes an input vector \code{x} and evaluates the functions in
+\code{expressions}, returning a column matrix of the results.
 }
 \description{
 This function takes a vector of mathematical expressions (as character strings)
-and generates a function that, given an input vector `x`, computes the specified
+and generates a function that, given an input vector \code{x}, computes the specified
 expressions and returns the results as a column matrix.
 }
 \examples{

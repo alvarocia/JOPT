@@ -71,6 +71,5 @@ result <- jseq(x, 0.3, model_vec)
 # Plot the density of the selected subsample
 plot(density(result$x_j$x, bw = 2 / 100, kernel = "epanechnikov"),
      ylab = "", lwd = 1.7, xlim = c(-3.5, 3.5), main = "", xlab = "")
-result$idx
 
 }
